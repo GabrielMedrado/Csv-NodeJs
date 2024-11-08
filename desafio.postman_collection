@@ -1,0 +1,164 @@
+{
+	"info": {
+		"_postman_id": "cc494280-431a-4cee-92aa-44c918d948b2",
+		"name": "z_ROCKETSEAT",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20393666"
+	},
+	"item": [
+		{
+			"name": "desafio 01 - fundamentos",
+			"item": [
+				{
+					"name": "Create Task",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"Praticar programação\",\r\n    \"description\": \"Devo praticar programação diariamente\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3737/tasks",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3737",
+							"path": [
+								"tasks"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Complete Task",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3737/tasks/:id/complete",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3737",
+							"path": [
+								"tasks",
+								":id",
+								"complete"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "0dc4162d-d9b1-4564-bc99-55b89a804128"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "List Tasks",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3737/tasks",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3737",
+							"path": [
+								"tasks"
+							],
+							"query": [
+								{
+									"key": "search",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Task",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3737/tasks/29c81d9b-e550-4201-b9bd-0b3670bd87ac",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3737",
+							"path": [
+								"tasks",
+								"29c81d9b-e550-4201-b9bd-0b3670bd87ac"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Health",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3737/health",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3737",
+							"path": [
+								"health"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Task",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"oi\",\r\n    \"description\": \"oi teste\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3333/tasks/8b773b03-bedb-4739-9d31-45383c13d872",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3333",
+							"path": [
+								"tasks",
+								"8b773b03-bedb-4739-9d31-45383c13d872"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

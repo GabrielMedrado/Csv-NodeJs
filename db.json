@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    {
+      "id": "03da3569-520b-41be-9b97-5d7ee341a9f4",
+      "title": "Praticar programação na Rocketseat",
+      "description": "Devo praticar programação diariamente",
+      "completed_at": null,
+      "created_at": "2024-11-08T14:55:43.597Z",
+      "updated_at": "2024-11-08T14:55:43.597Z"
+    },
+    {
+      "id": "5f63fd7e-4cc3-41c1-8a85-7381548cabfa",
+      "title": "Entregar o 1º desafio",
+      "description": "Devo realizar a entrega deste desafio",
+      "completed_at": null,
+      "created_at": "2024-11-08T14:56:11.372Z",
+      "updated_at": "2024-11-08T14:56:11.372Z"
+    },
+    {
+      "id": "9bd62f4a-6363-499c-9b0a-0ab84090eb43",
+      "title": "Desafio CSV",
+      "description": " Devo realizar com sucesso a importação do arquivo CSV",
+      "completed_at": null,
+      "created_at": "2024-11-08T14:57:58.983Z",
+      "updated_at": "2024-11-08T14:57:58.983Z"
+    },
+    {
+      "id": "b1f39430-2582-407b-9916-1edf38dd8d7c",
+      "title": "Praticar TypeScript",
+      "description": " Devo estudar mais sobre TypeScript",
+      "completed_at": null,
+      "created_at": "2024-11-08T14:58:00.006Z",
+      "updated_at": "2024-11-08T14:58:00.006Z"
+    }
+  ]
+}
